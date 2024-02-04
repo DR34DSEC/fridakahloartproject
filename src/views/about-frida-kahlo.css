@@ -1,0 +1,198 @@
+.about-frida-kahlo-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-frida-kahlo-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.about-frida-kahlo-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.about-frida-kahlo-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-frida-kahlo-navlink {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-frida-kahlo-navlink1 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-frida-kahlo-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-frida-kahlo-burger-menu {
+  display: none;
+}
+.about-frida-kahlo-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.about-frida-kahlo-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.about-frida-kahlo-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-frida-kahlo-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.about-frida-kahlo-logo {
+  height: 2rem;
+}
+.about-frida-kahlo-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-frida-kahlo-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.about-frida-kahlo-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-frida-kahlo-text01 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-frida-kahlo-text02 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-frida-kahlo-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-frida-kahlo-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-frida-kahlo-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-frida-kahlo-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-frida-kahlo-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-frida-kahlo-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-frida-kahlo-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-frida-kahlo-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.about-frida-kahlo-image {
+  width: 100%;
+  height: 653px;
+  object-fit: cover;
+}
+.about-frida-kahlo-text06 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Arial Black";
+  font-weight: 900;
+  text-transform: capitalize;
+}
+@media(max-width: 991px) {
+  .about-frida-kahlo-text06 {
+    font-size: 25px;
+    font-style: italic;
+    font-family: Arial Black;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+}
+@media(max-width: 767px) {
+  .about-frida-kahlo-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-frida-kahlo-desktop-menu {
+    display: none;
+  }
+  .about-frida-kahlo-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-frida-kahlo-text01 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-frida-kahlo-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-frida-kahlo-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-frida-kahlo-text04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-frida-kahlo-text05 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .about-frida-kahlo-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .about-frida-kahlo-mobile-menu {
+    padding: 16px;
+  }
+}
